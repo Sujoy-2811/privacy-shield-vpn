@@ -10,10 +10,11 @@ const Nav = () => {
       {/*  logo */}
       <Link href="/">
         <Image
-          src={"/assets/Logo.svg"}
+          src={"/assets/Logo.png"}
           alt="PrivacySHield VPN"
-          width={150}
-          height={150}
+          width={60}
+          height={0}
+          style={{ height: "auto", width: "40px" }}
         />
       </Link>
       {/* links */}

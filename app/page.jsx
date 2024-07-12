@@ -1,12 +1,14 @@
 import Image from "next/image";
 
-import HeroText from "@/components/Hero/HeroText";
+import HeroText from "@/components/hero/HeroText";
 
-import Hero from "@/components/Hero/Hero";
+import Hero from "@/components/hero/Hero";
+import Info from "@/components/Info";
+import Plans from "@/components/plans/Plans";
 
 export default function Home() {
   return (
-    <main className="">
+    <main className=" flex flex-col space-y-24">
       {/* section 1 */}
       <section>
         <Hero
@@ -22,6 +24,8 @@ export default function Home() {
           />
         </Hero>
       </section>
+      {/* basic infi banner */}
+      <Info />
       {/* section 2 */}
       <section>
         <Hero
@@ -42,6 +46,9 @@ export default function Home() {
           />
         </Hero>
       </section>
+
+      {/* section 3 */}
+      <Plans />
     </main>
   );
 }
