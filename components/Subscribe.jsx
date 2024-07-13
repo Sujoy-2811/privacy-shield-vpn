@@ -3,7 +3,7 @@ import ButtonPrimary from "./button/ButtonPrimary";
 
 function Subscribe() {
   return (
-    <div className="flex justify-between mx-16">
+    <div className="flex justify-between mx-16 items-center">
       <div className="flex flex-col space-y-4 ">
         <h2 className="  w-[17ch] text-4xl">
           Subscribe Now for Get Special Features!
