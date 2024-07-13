@@ -1,5 +1,4 @@
-import React from "react";
-import Plan from "./Plan";
+import Plan from "./Plan.jsx";
 
 function Plans() {
   const list = [

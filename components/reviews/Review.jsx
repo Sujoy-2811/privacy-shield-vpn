@@ -1,6 +1,4 @@
-import { revalidatePath } from "next/cache";
 import Image from "next/image";
-import React from "react";
 
 function Review({ img, name, place, star, para }) {
   return (

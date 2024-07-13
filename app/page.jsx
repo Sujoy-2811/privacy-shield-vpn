@@ -1,14 +1,14 @@
 import Image from "next/image";
 
-import HeroText from "@/components/hero/HeroText";
+import HeroText from "@/components/hero/HeroText.jsx";
 
-import Hero from "@/components/hero/Hero";
-import Info from "@/components/Info";
-import Plans from "@/components/plans/Plans";
-import WordWide from "@/components/worldwide/WordWide";
-import Banner from "@/components/banner/Banner";
-import Reviews from "@/components/reviews/Reviews";
-import Subscribe from "@/components/Subscribe";
+import Hero from "@/components/hero/Hero.jsx";
+import Info from "@/components/Info.jsx";
+import Plans from "@/components/plans/Plans.jsx";
+import WordWide from "@/components/worldwide/WordWide.jsx";
+import Banner from "@/components/banner/Banner.jsx";
+import Reviews from "@/components/reviews/Reviews.jsx";
+import Subscribe from "@/components/Subscribe.jsx";
 
 export default function Home() {
   return (

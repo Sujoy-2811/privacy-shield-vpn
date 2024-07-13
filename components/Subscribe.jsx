@@ -1,5 +1,5 @@
 import React from "react";
-import ButtonPrimary from "./button/ButtonPrimary";
+import ButtonPrimary from "./button/ButtonPrimary.jsx";
 
 function Subscribe() {
   return (

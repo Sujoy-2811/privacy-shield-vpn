@@ -1,5 +1,4 @@
-import React from "react";
-import ButtonPrimary from "../button/ButtonPrimary";
+import ButtonPrimary from "../button/ButtonPrimary.jsx";
 
 const HeroText = ({ title, text, bulletpt, isLeft = true, button }) => {
   return (

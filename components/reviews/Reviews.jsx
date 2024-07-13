@@ -1,5 +1,4 @@
-import React from "react";
-import Review from "./Review";
+import Review from "./Review.jsx";
 
 function Reviews() {
   const list = [
