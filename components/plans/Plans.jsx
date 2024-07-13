@@ -45,8 +45,8 @@ function Plans() {
         <div className="flex flex-col space-y-3">
           <h2 className="text-center text-4xl">Choose Your Plan</h2>
           <p className="w-[36ch] text-center m-auto">
-            Let's choose the package that is best for you and explore it happily
-            and cheerfully.
+            Let&apos;s choose the package that is best for you and explore it
+            happily and cheerfully.
           </p>
         </div>
       </div>

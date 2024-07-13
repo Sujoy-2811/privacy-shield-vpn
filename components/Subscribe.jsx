@@ -8,7 +8,7 @@ function Subscribe() {
         <h2 className="  w-[17ch] text-4xl">
           Subscribe Now for Get Special Features!
         </h2>
-        <p>Let &apos; s subscribe with us and find the fun.</p>
+        <p>Let&apos;s subscribe with us and find the fun.</p>
       </div>
       <div>
         <ButtonPrimary>Subscribe Now</ButtonPrimary>
