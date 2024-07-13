@@ -18,7 +18,7 @@ const Nav = () => {
         />
       </Link>
       {/* links */}
-      <ul className="hidden lg:flex justify-between space-x-6 items-center">
+      <ul className="hidden lg:flex justify-between space-x-16 items-center">
         <li>
           <Link href="/">About</Link>
         </li>

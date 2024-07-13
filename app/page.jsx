@@ -5,6 +5,9 @@ import HeroText from "@/components/hero/HeroText";
 import Hero from "@/components/hero/Hero";
 import Info from "@/components/Info";
 import Plans from "@/components/plans/Plans";
+import WordWide from "@/components/worldwide/WordWide";
+import Banner from "@/components/banner/Banner";
+import Reviews from "@/components/reviews/Reviews";
 
 export default function Home() {
   return (
@@ -49,6 +52,12 @@ export default function Home() {
 
       {/* section 3 */}
       <Plans />
+      {/* seection world */}
+      <WordWide />
+      {/* seection banner */}
+      <Banner />
+      {/* seection reviews */}
+      <Reviews />
     </main>
   );
 }
