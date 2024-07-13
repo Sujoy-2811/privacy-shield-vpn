@@ -13,7 +13,14 @@ function Banner() {
     <section>
       <div className="flex justify-around ">
         {list.map((item) => (
-          <Image src={item.img} key={item.name} width={165} height={55} />
+          <Image
+            src={item.img}
+            key={item.name}
+            width={165}
+            height={55}
+            alt={item.name}
+            style={{ width: "auto", height: "auto" }}
+          />
         ))}
       </div>
     </section>

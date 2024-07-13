@@ -8,6 +8,7 @@ import Plans from "@/components/plans/Plans";
 import WordWide from "@/components/worldwide/WordWide";
 import Banner from "@/components/banner/Banner";
 import Reviews from "@/components/reviews/Reviews";
+import Subscribe from "@/components/Subscribe";
 
 export default function Home() {
   return (
@@ -21,7 +22,7 @@ export default function Home() {
         >
           <HeroText
             title="Want anything to be easy with LaslesVPN."
-            text="Provide a network for all your needs with ease and fun using LaslesVPN
+            text="Provide a network for all your needs with ease and fun using Privacy Shield VPN
           discover interesting features from us."
             button="Get Started"
           />
@@ -58,6 +59,8 @@ export default function Home() {
       <Banner />
       {/* seection reviews */}
       <Reviews />
+      {/* seection  subscribe  */}
+      <Subscribe />
     </main>
   );
 }
