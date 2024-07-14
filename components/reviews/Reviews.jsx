@@ -7,7 +7,7 @@ function Reviews() {
       name: "Viezh Robert",
       place: "Warsaw. Poland",
       star: "4.5",
-      para: "Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems.    LaslesVPN always the best",
+      para: "Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems.    Privacy Shield VPN always the best",
     },
     {
       img: "/assets/people-2.png",

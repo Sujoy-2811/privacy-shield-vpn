@@ -22,7 +22,7 @@ export default function Home() {
           isImgleft={false}
         >
           <HeroText
-            title="Want anything to be easy with LaslesVPN."
+            title="Want anything to be easy with Privacy Shield VPN."
             text="Provide a network for all your needs with ease and fun using Privacy Shield VPN
           discover interesting features from us."
             button="Get Started"

@@ -8,8 +8,8 @@ function WordWide() {
           Huge Global Network of Fast VPN
         </h2>
         <p>
-          See LaslesVPN everywhere to make it easier for you when you move
-          locations.
+          See Privacy Shield VPN everywhere to make it easier for you when you
+          move locations.
         </p>
       </div>
       <div>
