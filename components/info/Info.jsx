@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Icon from "../Icon";
 
 function Info() {
   const listUser = [
@@ -22,15 +23,7 @@ function Info() {
     <div className="w-full flex justify-around">
       {listUser.map((item) => (
         <div className="flex items-center space-x-4" key={item.name}>
-          <div className="bg-red-700 rounded-full p-2">
-            <Image
-              src={item.icon}
-              width={24}
-              height={24}
-              alt={item.name}
-              style={{ height: "24px", width: "24px" }}
-            />
-          </div>
+          <Icon src={item.icon} name={item.name} />
           <div className="flex flex-col text-lg">
             <span className="font-bold">{item.number}+</span>
             <span>{item.name}</span>

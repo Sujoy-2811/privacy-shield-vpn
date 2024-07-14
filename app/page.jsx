@@ -3,12 +3,13 @@ import Image from "next/image";
 import HeroText from "@/components/hero/HeroText.jsx";
 
 import Hero from "@/components/hero/Hero.jsx";
-import Info from "@/components/Info.jsx";
+import Info from "@/components/info/Info.jsx";
 import Plans from "@/components/plans/Plans.jsx";
 import WordWide from "@/components/worldwide/WordWide.jsx";
 import Banner from "@/components/banner/Banner.jsx";
 import Reviews from "@/components/reviews/Reviews.jsx";
 import Subscribe from "@/components/Subscribe.jsx";
+import Footer from "@/components/footer/Footer";
 
 export default function Home() {
   return (
@@ -61,6 +62,8 @@ export default function Home() {
       <Reviews />
       {/* seection  subscribe  */}
       <Subscribe />
+      {/* Footer */}
+      <Footer />
     </main>
   );
 }
