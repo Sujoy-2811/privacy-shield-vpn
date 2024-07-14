@@ -20,7 +20,7 @@ function Plan({
       {list && (
         <ul className="flex flex-col items-center grow">
           {list.map((item) => (
-            <li className="m-2 flex gap-1" key={item}>
+            <li className="m-2 flex gap-1 it" key={item}>
               <Image
                 src="/assets/Icon/jam_check.svg"
                 width={20}

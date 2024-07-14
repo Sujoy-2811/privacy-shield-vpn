@@ -15,7 +15,7 @@ const HeroText = ({ title, text, bulletpt, isLeft = true, button }) => {
         {bulletpt && (
           <ul>
             {bulletpt.map((item) => (
-              <li key={item} className="flex gap-1 ">
+              <li key={item} className="flex gap-1  items-center m-1 lg:m-2">
                 <Image
                   src="/assets/Icon/checklist.svg"
                   width={20}
