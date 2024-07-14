@@ -4,7 +4,7 @@ function Hero({ children, img, alt, isImgleft }) {
   const imgOrder = isImgleft ? "lg:order-[1]" : "lg:order-[2]";
   const textOrder = !isImgleft ? "lg:order-[]" : "lg:order-[2]";
   return (
-    <div className="flex flex-col  justify-between lg:flex-row w-full gap-4">
+    <div className="flex flex-col lg:items-center  justify-between lg:flex-row w-full gap-4">
       <div className={`grow lg:w-1/2 order-[2] `}>{children}</div>
       <div className={`grow lg:w-1/2 ${imgOrder}`}>
         <Image
