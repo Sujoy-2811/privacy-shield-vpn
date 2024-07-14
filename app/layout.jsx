@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
       <body
         className={
           inter.className +
-          " min-h-screen px-4 py-2 lg:px-48 lg:py-10 flex-col space-y-16"
+          " min-h-screen p-4 lg:px-48 lg:py-10 flex-col space-y-16 "
         }
       >
         <header>

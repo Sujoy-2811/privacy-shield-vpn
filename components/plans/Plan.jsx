@@ -8,7 +8,7 @@ function Plan({
   price = "free",
 }) {
   return (
-    <div className=" border border-solid p-16 pb-8 rounded-2xl flex flex-col justify-center items-center space-y-8 ">
+    <div className=" border border-solid lg:p-16 p-12 pb-8 rounded-2xl flex flex-col justify-center items-center space-y-8 ">
       <Image
         src={img}
         width={200}

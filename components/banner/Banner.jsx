@@ -9,8 +9,8 @@ function Banner() {
     { img: "/assets/Icon/spotify.png", name: "Spotify" },
   ];
   return (
-    <section>
-      <div className="flex justify-around ">
+    <section className="w-full">
+      <div className="flex justify-around flex-wrap items-center m-auto">
         {list.map((item) => (
           <Image
             src={item.img}

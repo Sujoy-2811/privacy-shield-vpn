@@ -8,9 +8,9 @@ function Review({ img, name, place, star, para }) {
           <Image
             src={img}
             alt="user"
-            width={45}
-            height={45}
-            style={{ width: "auto", height: "auto" }}
+            width={50}
+            height={50}
+            style={{ width: "45px", height: "45px" }}
           />
           <div className="flex flex-col space-y-1">
             <p>{name}</p>

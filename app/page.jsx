@@ -13,7 +13,7 @@ import Footer from "@/components/footer/Footer";
 
 export default function Home() {
   return (
-    <main className=" flex flex-col space-y-24">
+    <main className=" flex flex-col lg:space-y-24 space-y-16">
       {/* section 1 */}
       <section>
         <Hero

@@ -4,7 +4,7 @@ import FooterHeading from "./FooterHeading";
 
 function Footer() {
   return (
-    <footer className="flex justify-between">
+    <footer className="flex flex-col lg:items-center lg:flex-row justify-between gap-12">
       <FooterHeading />
       <FooterList />
     </footer>

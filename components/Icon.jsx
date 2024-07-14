@@ -8,7 +8,12 @@ function Icon({ src, color, name }) {
         width={24}
         height={24}
         alt={name}
-        style={{ height: "24px", width: "24px" }}
+        style={{
+          minHeight: "15px",
+          minWidth: "15px",
+          maxWidth: "24px",
+          maxHeight: "24px",
+        }}
       />
     </div>
   );

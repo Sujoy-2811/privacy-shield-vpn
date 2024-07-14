@@ -24,7 +24,7 @@ function Info() {
       {listUser.map((item) => (
         <div className="flex items-center space-x-4" key={item.name}>
           <Icon src={item.icon} name={item.name} />
-          <div className="flex flex-col text-lg">
+          <div className="flex flex-col lg:text-lg text-sm">
             <span className="font-bold">{item.number}+</span>
             <span>{item.name}</span>
           </div>
