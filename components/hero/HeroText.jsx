@@ -1,4 +1,5 @@
 import ButtonPrimary from "../button/ButtonPrimary.jsx";
+import Image from "next/image.js";
 
 const HeroText = ({ title, text, bulletpt, isLeft = true, button }) => {
   return (
@@ -14,7 +15,16 @@ const HeroText = ({ title, text, bulletpt, isLeft = true, button }) => {
         {bulletpt && (
           <ul>
             {bulletpt.map((item) => (
-              <li key={item}>{item}</li>
+              <li key={item} className="flex gap-1 ">
+                <Image
+                  src="/assets/Icon/checklist.svg"
+                  width={20}
+                  height={20}
+                  alt="check"
+                  style={{ width: "20px", height: "20px" }}
+                />
+                <span>{item}</span>
+              </li>
             ))}
           </ul>
         )}

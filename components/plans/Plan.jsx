@@ -20,14 +20,21 @@ function Plan({
       {list && (
         <ul className="flex flex-col items-center grow">
           {list.map((item) => (
-            <li className="m-2" key={item}>
-              {item}
+            <li className="m-2 flex gap-1" key={item}>
+              <Image
+                src="/assets/Icon/jam_check.svg"
+                width={20}
+                height={20}
+                alt="check"
+                style={{ width: "20px", height: "20px" }}
+              />
+              <span>{item}</span>
             </li>
           ))}
         </ul>
       )}
 
-      <p>{price === "free" ? price : "$" + `{${price}/month}`}</p>
+      <p>{price === "free" ? price : "$" + `${price} / month`}</p>
       <ButtonOutline>Select</ButtonOutline>
     </div>
   );
